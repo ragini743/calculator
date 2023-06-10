@@ -1,5 +1,5 @@
 .button{
-    min-width: 40px;
+    min-width: 50px;
     margin: 3px;
     width: 10vw;
     padding: 10px;
@@ -32,4 +32,11 @@ input{
     padding: 12px;
     border: 3px solid black;
     border-radius: 12px;
+}
+.parentContainer{
+    box-shadow: 0 0 8px 5px #cee3e3;
+    border-radius: 20px;
+    margin: 2rem auto;
+    border: 2px solid grey;
+    width: 300px;
 }
