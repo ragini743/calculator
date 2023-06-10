@@ -19,7 +19,7 @@
     display: grid;
     /* padding: 5px; */
     margin: 3vw auto;
-    background: green;
+    /* background: rgb(123, 124, 129); */
     justify-items: center;
 }
 h1{
