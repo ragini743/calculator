@@ -1,6 +1,7 @@
-input=document.querySelector("input");
-buttons=document.querySelectorAll(".button");
-for(let button of buttons){
+const input=document.querySelector("input");
+const buttons=document.querySelectorAll(".button");
+
+for(let button of buttons) {
     button.addEventListener("click",(e)=>{
         if(e.target.textContent=="="){
             console.log("hello")
@@ -11,10 +12,9 @@ for(let button of buttons){
         else if(e.target.textContent=="clear"){
             input.value=""
         }
-        else{
+        else {
         console.log(e.target)
         input.value+=e.target.textContent}
-
     }
  )
 }
